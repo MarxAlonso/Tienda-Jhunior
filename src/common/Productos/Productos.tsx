@@ -8,44 +8,45 @@ const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Mujeres étnicas",
+    title: "Look Soleado de Moda",
     rating: 5.0,
-    color: "white",
+    color: "Blanco",
     aosDelay: "0",
   },
   {
     id: 2,
     img: Img2,
-    title: "Mujeres occidentales",
+    title: "Estilo Casual para Camping",
     rating: 4.5,
-    color: "Red",
+    color: "Rojo",
     aosDelay: "200",
   },
   {
     id: 3,
     img: Img3,
-    title: "Goggles",
+    title: "Elegante para la Cita",
     rating: 4.7,
-    color: "brown",
+    color: "Marrón",
     aosDelay: "400",
   },
   {
     id: 4,
     img: Img4,
-    title: "Camiseta estampada",
+    title: "Perfecta para Eventos",
     rating: 4.4,
-    color: "Yellow",
+    color: "Amarillo",
     aosDelay: "600",
   },
   {
     id: 5,
     img: Img2,
-    title: "Camiseta de moda",
+    title: "Moda Playera",
     rating: 4.5,
-    color: "Pink",
+    color: "Rosa",
     aosDelay: "800",
   },
 ];
+
 export const Productos = () => {
   return (
     <div className="mt-14 mb-12">
@@ -56,7 +57,7 @@ export const Productos = () => {
             Top Selling Products for you
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Products
+            Productos
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit

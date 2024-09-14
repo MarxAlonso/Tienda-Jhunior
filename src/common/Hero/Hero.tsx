@@ -18,7 +18,7 @@ const ImageList: ImageData[] = [
   {
     id: 1,
     img: Image1,
-    title: "Hasta 50% de descuento en toda la ropa de hombre",
+    title: "Hasta 50% de descuento en toda la ropa",
     description:
       "Su Vida será Cambiada para siempre. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },

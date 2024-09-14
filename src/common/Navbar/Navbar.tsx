@@ -20,12 +20,12 @@ const Menu = [
   },
   {
     id: 3,
-    name: "Cocina",
+    name: "Camisas",
     link: "/#",
   },
   {
     id: 3,
-    name: "Electronicas",
+    name: "Poleras",
     link: "/#",
   },
 ];
@@ -56,7 +56,7 @@ export const Navbar = () => {
           <div>
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
               <img src={Logo} alt="Logo" className="w-10" />
-              TiendaJhunior
+              Store
             </a>
           </div>
 
