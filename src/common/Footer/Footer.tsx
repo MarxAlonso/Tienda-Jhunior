@@ -24,17 +24,18 @@ const FooterLinks = [
   },
   {
     title: "Nosotros",
-    link: "/",
+    link: "/nosotros",
   },
   {
     title: "Contacto",
-    link: "/",
+    link: "/contacto",
   },
   {
     title: "Ropas",
-    link: "/",
+    link: "/ropas",
   },
 ];
+
 export const Footer = () => {
   return (
     <div style={BannerImg} className="text-white">
@@ -61,11 +62,13 @@ export const Footer = () => {
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
-                    <li
-                      className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
-                      key={link.title}
-                    >
-                      <span>{link.title}</span>
+                    <li key={link.title}>
+                      <a
+                        href={link.link}
+                        className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                      >
+                        {link.title}
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -78,11 +81,13 @@ export const Footer = () => {
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
-                    <li
-                      className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
-                      key={link.title}
-                    >
-                      <span>{link.title}</span>
+                    <li key={link.title}>
+                      <a
+                        href={link.link}
+                        className="cursor-pointer hover:text-primary hover:translate-x-1 duration-300 text-gray-200"
+                      >
+                        {link.title}
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -90,7 +95,6 @@ export const Footer = () => {
             </div>
 
             {/* social links */}
-
             <div>
               <div className="flex items-center gap-3 mt-6">
                 <a href="#">
